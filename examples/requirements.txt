@@ -1,0 +1,13 @@
+# Requirements for examples 02 and 03 in this sub-topic.
+# Example 01 needs nothing beyond the Python standard library.
+
+# Example 02: local transformer text generation
+transformers>=4.40.0
+torch>=2.2.0
+
+# Example 03: Anthropic API text generation
+anthropic>=0.40.0
+
+# To run the .ipynb notebooks yourself (optional -- the beginner notebook
+# already has its output saved, so you can read it without this)
+jupyter>=1.0.0
